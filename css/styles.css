@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;}
+
+    h1 {color:#20a8b4;
+        font-size: 40px;
+        font-family: 'Roboto', sans-serif;}
+    .to {color: #ff5c0f;
+        font-family: 'Roboto', sans-serif;}
+
+        h2 {color: #000;
+            font-size: 25px;
+            font-family: 'Roboto', sans-serif;}
+        .tocode {color: #ff5c0f;}
+    
+    .header {
+            overflow: hidden;
+            background-color: #F2F2F2;
+          }
+          ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          .vertical-menu a {
+            color: #000; 
+            display: block; 
+            font-size: 16px;
+            padding: 12px; 
+            text-decoration: none; }
+        
+            
+          .vertical-menu a:hover {
+            color: #ff5c0f; 
+          }
+    .button {font-family: 'Roboto', sans-serif;
+        text-align: left;
+        border-radius: 10px;
+        font-size: 15px;
+        color: #fff;
+        background-color: #20a8b4;
+        padding: 12px;
+        display: block;
+        width: 100%;}
+    .button1:hover {
+            background-color: #ff5c0f;
+            color: white;}
+    .button2:hover {
+                background-color: #ff5c0f;
+                color: white;}
+
+                
+ 
+.container__image {display: none;}
+
+  .container__text {
+  display: inline;}
+
+
+
+@media screen and (min-width: 768px){  
+h1 {
+  float: left;
+  font-size: 30px;}
+
+ul {
+display: flex;
+flex-wrap: wrap;
+float: right;}
+
+.button1 {
+width: auto;
+float: right;
+display: flex;
+flex-wrap: wrap;}
+
+.button2 {
+  width: auto;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;} 
+
+  .container__image {
+    display: flex;
+    width: 50%;
+   float: right;}
+ .container__text {
+ display: inline;}}
